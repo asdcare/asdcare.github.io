@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>關於我們 - ASD Care</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            color: black;
+            background: url('images/background.png') no-repeat center center fixed;
+            background-size: cover; /* ✅ 自動按比例填滿畫面 */            
+        }
+        .overlay {
+            width: 100%;
+            min-height: 100vh;
+            background: rgba(245, 232, 211, 0.85); /* 淺米色半透明背景 */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+        .content-box {
+            width: 90%;
+            max-width: 700px;
+            background: rgba(255, 255, 255, 0.9);
+            padding: 20px;
+            border-radius: 12px;
+            text-align: center;
+        }
+        h1 {
+            font-size: 28px;
+            font-weight: bold;
+            color: teal;
+        }
+        p {
+            font-size: 16px;
+            color: #333;
+            line-height: 1.6;
+        }
+        .services {
+            margin-top: 20px;
+            text-align: left;
+        }
+        .service-item {
+            display: flex;
+            align-items: center;
+            font-size: 18px;
+            color: darkgreen;
+            margin-bottom: 10px;
+        }
+        .service-item img {
+            width: 20px; /* ✅ 縮小箭頭大小 */
+            margin-right: 10px;
+        }
+        .app-icon {
+            width: 120px; /* ✅ 縮小 APP ICON */
+            margin-bottom: 15px;
+        }
+        .social-links {
+            margin-top: 20px;
+        }
+        .social-button {
+            display: inline-flex;
+            align-items: center;
+            padding: 10px 15px;
+            margin: 5px;
+            font-size: 16px;
+            font-weight: bold;
+            color: white;
+            border-radius: 8px;
+            text-decoration: none;
+        }
+        .facebook {
+            background-color: #3b5998;
+        }
+        .whatsapp {
+            background-color: #25D366;
+        }
+        .social-button img {
+            width: 20px;
+            height: 20px;
+            margin-right: 8px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="overlay">
+    <div class="content-box">
+        <img src="images/appicon.png" alt="ASD Care" class="app-icon">
+        <h1>🌟 關於 ASD Care 關懷 🌟</h1>
+        <p>👋 你好！我們是 ASD Care 關懷，一個專注於關愛自閉症人士（ASD）及其家庭的非營利平台。</p>
+        <p>💙 這個 APP 由一位 ASD 孩子的家長創立，希望透過自身經歷和資源，為更多 ASD 家庭帶來支持、理解和溫暖。</p>
+        <p>我們深知這條路不容易走，因此希望用實際行動，幫助更多有需要的人。</p>
+
+        <h2 style="color: orange;">我們提供的服務：</h2>
+        <div class="services">
+            <div class="service-item">
+                <img src="images/icon_arrow.png" alt="✔">
+                <span>分享 ASD 相關資訊與實用資源</span>
+            </div>
+            <div class="service-item">
+                <img src="images/icon_arrow.png" alt="✔">
+                <span>提供家長與照顧者的支持與交流平台</span>
+            </div>
+            <div class="service-item">
+                <img src="images/icon_arrow.png" alt="✔">
+                <span>推廣社會大眾對 ASD 的認識與接納</span>
+            </div>
+            <div class="service-item">
+                <img src="images/icon_arrow.png" alt="✔">
+                <span>透過免費服務，讓更多 ASD 人士得到幫助</span>
+            </div>
+        </div>
+
+        <!-- ✅ 新增社交媒體按鈕 -->
+        <div class="social-links">
+            <a href="https://www.facebook.com/profile.php?id=61573752815081" class="social-button facebook" target="_blank">
+                 Facebook
+            </a>
+            <a href="https://chat.whatsapp.com/LoV9rBJ18KCGSDNJRFLmws?text=%E6%88%91%E6%83%B3%E8%AB%8B%E5%95%8F%E4%B8%80%E4%B8%8BASD%20%E8%87%AA%E9%96%89%E7%97%87%E5%82%BE%E5%90%91%E7%9A%84%E6%9B%B4%E5%A4%9A%E8%B3%87%E8%A8%8A" 
+               class="social-button whatsapp" target="_blank">
+                 WhatsApp
+            </a>
+        </div>
+
+    </div>
+</div>
+
+</body>
+</html>
