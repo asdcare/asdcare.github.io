@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="zh-HK">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="蝦毛IT義工診所（Hamo IT Volunteer Clinic）— 由 InfoEx Solutions (HK) Limited 營運，提供資訊科技、AI、數碼應用及社區科技支援。">
+  <title>蝦毛IT義工診所 | Hamo IT Volunteer Clinic</title>
+  <style>
+    :root {
+      --bg:#f6f8fb; --card:#fff; --text:#172033; --muted:#667085;
+      --line:#e7ebf0; --accent:#2563eb; --accent2:#7c3aed;
+    }
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{
+      margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",
+      "Noto Sans TC","PingFang HK","Microsoft JhengHei",sans-serif;
+      color:var(--text);background:var(--bg);line-height:1.65
+    }
+    .wrap{max-width:1050px;margin:auto;padding:0 24px}
+    nav{
+      background:rgba(255,255,255,.92);border-bottom:1px solid var(--line);
+      position:sticky;top:0;z-index:10;backdrop-filter:blur(12px)
+    }
+    .nav{height:70px;display:flex;align-items:center;justify-content:space-between}
+    .brand{font-weight:800;font-size:19px}
+    .nav a{color:var(--muted);text-decoration:none;margin-left:24px;font-size:14px}
+    .hero{padding:100px 0 80px;text-align:center;background:
+      radial-gradient(circle at 15% 15%,#dbeafe 0,transparent 30%),
+      radial-gradient(circle at 85% 20%,#ede9fe 0,transparent 30%)}
+    .badge{
+      display:inline-block;padding:7px 13px;border:1px solid #cbd5e1;
+      border-radius:999px;background:#fff;font-size:13px;color:#475467
+    }
+    h1{font-size:clamp(38px,7vw,68px);line-height:1.08;margin:24px 0 12px;letter-spacing:-2px}
+    .en{font-size:20px;color:var(--muted);margin-bottom:25px}
+    .lead{max-width:720px;margin:0 auto;color:#475467;font-size:18px}
+    .buttons{margin-top:35px}
+    .btn{
+      display:inline-block;padding:12px 20px;border-radius:10px;text-decoration:none;
+      font-weight:700;margin:5px
+    }
+    .primary{background:var(--accent);color:white}
+    .secondary{background:white;color:var(--text);border:1px solid var(--line)}
+    section{padding:75px 0}
+    h2{text-align:center;font-size:31px;margin:0 0 12px}
+    .sub{text-align:center;color:var(--muted);max-width:650px;margin:0 auto 40px}
+    .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+    .card{
+      background:var(--card);border:1px solid var(--line);border-radius:18px;
+      padding:28px;box-shadow:0 8px 25px rgba(16,24,40,.04)
+    }
+    .icon{font-size:30px}.card h3{margin:14px 0 8px}.card p{margin:0;color:var(--muted)}
+    .about{background:white}
+    .aboutbox{max-width:780px;margin:auto;text-align:center;color:#475467}
+    .company{
+      margin-top:32px;padding:20px;border:1px solid var(--line);border-radius:14px;
+      background:#f8fafc
+    }
+    .contactbox{
+      max-width:700px;margin:auto;background:#111827;color:white;border-radius:22px;
+      padding:40px;text-align:center
+    }
+    .contactbox p{color:#d1d5db}
+    .contactbox a{color:white}
+    footer{text-align:center;padding:30px;color:#98a2b3;font-size:13px;border-top:1px solid var(--line)}
+    @media(max-width:760px){
+      .grid{grid-template-columns:1fr}.navlinks{display:none}
+      .hero{padding:70px 0 60px} h1{letter-spacing:-1px}
+    }
+  </style>
+</head>
+<body>
+<nav>
+  <div class="wrap nav">
+    <div class="brand">蝦毛IT義工診所</div>
+    <div class="navlinks">
+      <a href="#services">服務</a>
+      <a href="#about">關於我們</a>
+      <a href="#contact">聯絡</a>
+    </div>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="wrap">
+    <span class="badge">Technology · AI · Community</span>
+    <h1>蝦毛IT義工診所</h1>
+    <div class="en">Hamo IT Volunteer Clinic</div>
+    <p class="lead">
+      以資訊科技及人工智能協助社區，探索實用、可靠而以人為本的數碼方案。
+      <br>Using technology and AI to support people and the community.
+    </p>
+    <div class="buttons">
+      <a class="btn primary" href="#contact">聯絡我們</a>
+      <a class="btn secondary" href="#about">了解更多</a>
+    </div>
+  </div>
+</header>
+
+<section id="services">
+  <div class="wrap">
+    <h2>我們做甚麼</h2>
+    <p class="sub">聚焦實際需要，運用科技改善日常生活、社區服務及數碼體驗。</p>
+    <div class="grid">
+      <div class="card">
+        <div class="icon">💻</div>
+        <h3>IT 支援</h3>
+        <p>提供一般資訊科技、數碼工具及技術應用相關支援與建議。</p>
+      </div>
+      <div class="card">
+        <div class="icon">✨</div>
+        <h3>AI & Digital</h3>
+        <p>探索人工智能、自動化及數碼方案，將新科技轉化為實際應用。</p>
+      </div>
+      <div class="card">
+        <div class="icon">🤝</div>
+        <h3>社區科技</h3>
+        <p>推動以人為本的科技項目，包括支援家庭、照護及社區需要的數碼工具。</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="about" id="about">
+  <div class="wrap">
+    <h2>關於蝦毛IT義工診所</h2>
+    <div class="aboutbox">
+      <p>
+        蝦毛IT義工診所（Hamo IT Volunteer Clinic）是一個以科技服務社區為方向的項目，
+        關注資訊科技、人工智能及數碼應用如何協助不同人士解決實際問題。
+      </p>
+      <p>
+        ASD CARE 是我們其中一個數碼／社區項目，旨在透過科技提供實用資訊及支援。
+      </p>
+      <div class="company">
+        <strong>Operated by InfoEx Solutions (HK) Limited</strong><br>
+        Hong Kong · 香港
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="wrap">
+    <div class="contactbox">
+      <h2 style="color:white">聯絡我們</h2>
+      <p>如有 IT、AI 或數碼應用相關查詢，歡迎透過 WhatsApp 聯絡。</p>
+      <p><strong>WhatsApp / Tel: +852 6296 0637</strong></p>
+      <p style="font-size:14px;margin-top:25px">
+        <a href="asdCare_files/asd-care-privacy/privacy_policy.html">ASD CARE Privacy Policy</a>
+      </p>
+    </div>
+  </div>
+</section>
+
+<footer>
+  © 2026 InfoEx Solutions (HK) Limited · Hamo IT Volunteer Clinic · Hong Kong
+</footer>
+</body>
+</html>
